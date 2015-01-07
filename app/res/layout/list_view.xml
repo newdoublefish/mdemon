@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_marginLeft="30dip"
+        android:background="@drawable/groups_icon"
+     
+        />
+    
+       <!--android:background="@drawable/camera_single" -->
+
+    <TextView
+        android:id="@+id/deviceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dip"
+        android:layout_toRightOf="@+id/image"
+        android:text="hello"
+        android:textSize="30dip" />
+    
+     <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginLeft="15dip"
+        android:layout_toRightOf="@+id/deviceName"
+        android:text="年林"
+        android:layout_alignBottom="@+id/deviceName"
+        android:textSize="15dip" />
+     
+      <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginLeft="15dip"
+        android:layout_toRightOf="@+id/deviceName"
+        android:text="性别"
+        android:layout_above="@+id/age"
+        android:textSize="15dip" />    
+    
+    
+</RelativeLayout>

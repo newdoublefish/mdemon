@@ -1,0 +1,59 @@
+2014-10-21 21:55:15 [main:0] - [ INFO] Root WebApplicationContext: initialization started
+2014-10-21 21:55:15 [main:160] - [ INFO] Refreshing Root WebApplicationContext: startup date [Tue Oct 21 21:55:15 CST 2014]; root of context hierarchy
+2014-10-21 21:55:15 [main:246] - [ INFO] Loading XML bean definitions from URL [file:/E:/projectJavaweb/workspace/mydemo24/build/classes/spring.xml]
+2014-10-21 21:55:16 [main:1229] - [ INFO] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@165a3c2: defining beans [dataSource,sessionFactory,hibernateTemplate,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,userDao,user,userService]; root of factory hierarchy
+2014-10-21 21:55:16 [main:1486] - [ INFO] Hibernate Annotations 3.5.5-Final
+2014-10-21 21:55:16 [main:1504] - [ INFO] Hibernate 3.5.5-Final
+2014-10-21 21:55:16 [main:1506] - [ INFO] hibernate.properties not found
+2014-10-21 21:55:16 [main:1527] - [ INFO] Bytecode provider name : javassist
+2014-10-21 21:55:16 [main:1537] - [ INFO] using JDK 1.4 java.sql.Timestamp handling
+2014-10-21 21:55:16 [main:1665] - [ INFO] Hibernate Commons Annotations 3.2.0.Final
+2014-10-21 21:55:17 [main:1735] - [ INFO] Binding entity from annotated class: cn.net.msg.model.User
+2014-10-21 21:55:17 [main:1784] - [ INFO] Bind entity cn.net.msg.model.User on table usertable
+2014-10-21 21:55:17 [main:1817] - [ INFO] Hibernate Validator not found: ignoring
+2014-10-21 21:55:17 [main:1818] - [ INFO] Building new Hibernate SessionFactory
+2014-10-21 21:55:17 [main:1820] - [ INFO] Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+2014-10-21 21:55:17 [main:1921] - [ INFO] Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2014-10-21 21:55:18 [main:2944] - [ INFO] RDBMS: MySQL, version: 5.7.3-m13
+2014-10-21 21:55:18 [main:2944] - [ INFO] JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.0.8 ( Revision: ${svn.Revision} )
+2014-10-21 21:55:18 [main:3002] - [ INFO] Using dialect: org.hibernate.dialect.MySQL5Dialect
+2014-10-21 21:55:18 [main:3009] - [ INFO] Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2014-10-21 21:55:18 [main:3020] - [ INFO] Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2014-10-21 21:55:18 [main:3022] - [ INFO] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2014-10-21 21:55:18 [main:3022] - [ INFO] Automatic flush during beforeCompletion(): disabled
+2014-10-21 21:55:18 [main:3023] - [ INFO] Automatic session close at end of transaction: disabled
+2014-10-21 21:55:18 [main:3023] - [ INFO] JDBC batch size: 15
+2014-10-21 21:55:18 [main:3023] - [ INFO] JDBC batch updates for versioned data: disabled
+2014-10-21 21:55:18 [main:3025] - [ INFO] Scrollable result sets: enabled
+2014-10-21 21:55:18 [main:3025] - [ INFO] JDBC3 getGeneratedKeys(): enabled
+2014-10-21 21:55:18 [main:3025] - [ INFO] Connection release mode: auto
+2014-10-21 21:55:18 [main:3028] - [ INFO] Maximum outer join fetch depth: 2
+2014-10-21 21:55:18 [main:3028] - [ INFO] Default batch fetch size: 1
+2014-10-21 21:55:18 [main:3028] - [ INFO] Generate SQL with comments: disabled
+2014-10-21 21:55:18 [main:3028] - [ INFO] Order SQL updates by primary key: disabled
+2014-10-21 21:55:18 [main:3029] - [ INFO] Order SQL inserts for batching: disabled
+2014-10-21 21:55:18 [main:3029] - [ INFO] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2014-10-21 21:55:18 [main:3032] - [ INFO] Using ASTQueryTranslatorFactory
+2014-10-21 21:55:18 [main:3033] - [ INFO] Query language substitutions: {}
+2014-10-21 21:55:18 [main:3033] - [ INFO] JPA-QL strict compliance: disabled
+2014-10-21 21:55:18 [main:3033] - [ INFO] Second-level cache: enabled
+2014-10-21 21:55:18 [main:3033] - [ INFO] Query cache: disabled
+2014-10-21 21:55:18 [main:3034] - [ INFO] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2014-10-21 21:55:18 [main:3034] - [ INFO] Optimize cache for minimal puts: disabled
+2014-10-21 21:55:18 [main:3034] - [ INFO] Structured second-level cache entries: disabled
+2014-10-21 21:55:18 [main:3039] - [ INFO] Echoing all SQL to stdout
+2014-10-21 21:55:18 [main:3040] - [ INFO] Statistics: disabled
+2014-10-21 21:55:18 [main:3041] - [ INFO] Deleted entity synthetic identifier rollback: disabled
+2014-10-21 21:55:18 [main:3041] - [ INFO] Default entity-mode: pojo
+2014-10-21 21:55:18 [main:3041] - [ INFO] Named query checking : enabled
+2014-10-21 21:55:18 [main:3042] - [ INFO] Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2014-10-21 21:55:18 [main:3124] - [ INFO] building session factory
+2014-10-21 21:55:18 [main:3319] - [ INFO] Not binding factory to JNDI, no JNDI name configured
+2014-10-21 21:55:18 [main:3411] - [ INFO] Using DataSource [org.apache.commons.dbcp.BasicDataSource@1c67248] of Hibernate SessionFactory for HibernateTransactionManager
+2014-10-21 21:55:18 [main:3527] - [ INFO] Root WebApplicationContext: initialization completed in 3522 ms
+2014-10-21 21:55:19 [main:3913] - [ INFO] Parsing configuration file [struts-default.xml]
+2014-10-21 21:55:19 [main:4097] - [ INFO] Parsing configuration file [struts-plugin.xml]
+2014-10-21 21:55:19 [main:4108] - [ INFO] Parsing configuration file [struts.xml]
+2014-10-21 21:55:19 [main:4208] - [ INFO] Initializing Struts-Spring integration...
+2014-10-21 21:55:19 [main:4209] - [ INFO] Setting autowire strategy to name
+2014-10-21 21:55:19 [main:4209] - [ INFO] ... initialized Struts-Spring integration successfully
